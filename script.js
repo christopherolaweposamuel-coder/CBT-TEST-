@@ -806,3 +806,790 @@ const questions = [
         ],
         answer: 0,
         explanation
+        "The dove represents peace and the Holy Spirit."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Who is associated with the founding of Redeemer's University?",
+        options: [
+            "Pastor Enoch Adejare Adeboye",
+            "Nnamdi Azikiwe",
+            "Obafemi Awolowo",
+            "Ahmadu Bello"
+        ],
+        answer: 0,
+        explanation:
+            "Redeemer's University was established by The Redeemed Christian Church of God, associated with Pastor Enoch Adejare Adeboye."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Redeemer's University is owned by which organisation?",
+        options: [
+            "The Redeemed Christian Church of God",
+            "The Federal Government of Nigeria",
+            "The University of Lagos",
+            "The African Union"
+        ],
+        answer: 0,
+        explanation:
+            "Redeemer's University is owned by The Redeemed Christian Church of God."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Nigeria's capital city is:",
+        options: [
+            "Lagos",
+            "Abuja",
+            "Ibadan",
+            "Kano"
+        ],
+        answer: 1,
+        explanation:
+            "Abuja is the capital city of Nigeria."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "What is the official currency of Nigeria?",
+        options: [
+            "Cedi",
+            "Dollar",
+            "Naira",
+            "Shilling"
+        ],
+        answer: 2,
+        explanation:
+            "The official currency of Nigeria is the naira."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Nigeria gained independence in:",
+        options: [
+            "1957",
+            "1960",
+            "1963",
+            "1970"
+        ],
+        answer: 1,
+        explanation:
+            "Nigeria became independent from British colonial rule on 1 October 1960."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which arm of government makes laws in Nigeria?",
+        options: [
+            "Executive",
+            "Judiciary",
+            "Legislature",
+            "Civil Service"
+        ],
+        answer: 2,
+        explanation:
+            "The legislative arm of government is responsible for making laws."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "The largest continent in the world is:",
+        options: [
+            "Africa",
+            "Europe",
+            "Asia",
+            "North America"
+        ],
+        answer: 2,
+        explanation:
+            "Asia is the largest continent by land area and population."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which planet is known as the Red Planet?",
+        options: [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+        ],
+        answer: 1,
+        explanation:
+            "Mars is commonly called the Red Planet because of its reddish appearance."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which organ pumps blood around the human body?",
+        options: [
+            "Liver",
+            "Kidney",
+            "Heart",
+            "Lung"
+        ],
+        answer: 2,
+        explanation:
+            "The heart pumps blood through the circulatory system."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which gas do humans need for normal respiration?",
+        options: [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Hydrogen"
+        ],
+        answer: 0,
+        explanation:
+            "Humans require oxygen for aerobic respiration."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which is the longest river in Africa traditionally identified in school geography?",
+        options: [
+            "Niger River",
+            "Congo River",
+            "Nile River",
+            "Benue River"
+        ],
+        answer: 2,
+        explanation:
+            "The Nile is traditionally identified as Africa's longest river."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "The Nigerian flag has which two main colours?",
+        options: [
+            "Red and white",
+            "Green and white",
+            "Blue and white",
+            "Green and yellow"
+        ],
+        answer: 1,
+        explanation:
+            "The Nigerian flag consists of green, white and green vertical bands."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "What does CPU stand for in computing?",
+        options: [
+            "Central Processing Unit",
+            "Computer Personal Unit",
+            "Central Program Utility",
+            "Computer Processing Utility"
+        ],
+        answer: 0,
+        explanation:
+            "CPU stands for Central Processing Unit."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which of these is an example of an operating system?",
+        options: [
+            "Microsoft Word",
+            "Windows",
+            "Google",
+            "YouTube"
+        ],
+        answer: 1,
+        explanation:
+            "Windows is an operating system."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which Nigerian city is known as the country's commercial centre?",
+        options: [
+            "Lagos",
+            "Jos",
+            "Makurdi",
+            "Sokoto"
+        ],
+        answer: 0,
+        explanation:
+            "Lagos is widely recognised as Nigeria's major commercial centre."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which institution is responsible for conducting Nigeria's national population census?",
+        options: [
+            "INEC",
+            "NPC",
+            "JAMB",
+            "WAEC"
+        ],
+        answer: 1,
+        explanation:
+            "The National Population Commission (NPC) is responsible for population census activities."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "What does JAMB stand for?",
+        options: [
+            "Joint Admissions and Matriculation Board",
+            "Junior Academic Management Board",
+            "Joint Academic Matriculation Bureau",
+            "Justice Admissions Management Board"
+        ],
+        answer: 0,
+        explanation:
+            "JAMB stands for Joint Admissions and Matriculation Board."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "What does WAEC stand for?",
+        options: [
+            "West African Examinations Council",
+            "West African Education Committee",
+            "World African Examination Council",
+            "West African Educational Commission"
+        ],
+        answer: 0,
+        explanation:
+            "WAEC stands for West African Examinations Council."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which ocean borders the southern coast of Nigeria?",
+        options: [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
+        ],
+        answer: 0,
+        explanation:
+            "Nigeria's southern coastline borders the Atlantic Ocean."
+    },
+
+    {
+        subject: "General Knowledge / RUN",
+        question: "Which Nigerian state is commonly known as the 'Centre of Excellence'?",
+        options: [
+            "Ogun State",
+            "Lagos State",
+            "Osun State",
+            "Kwara State"
+        ],
+        answer: 1,
+        explanation:
+            "Lagos State is popularly known by the slogan 'Centre of Excellence'."
+    }
+];
+
+
+/* =========================================================
+   CBT VARIABLES
+========================================================= */
+
+let currentQuestion = 0;
+let userAnswers = new Array(questions.length).fill(null);
+let timeLeft = 60 * 60;
+let timerInterval;
+
+
+/* =========================================================
+   GET HTML ELEMENTS
+========================================================= */
+
+const startBtn = document.getElementById("startBtn");
+
+const startScreen = document.getElementById("startScreen");
+const examScreen = document.getElementById("examScreen");
+const resultScreen = document.getElementById("resultScreen");
+const reviewScreen = document.getElementById("reviewScreen");
+
+const questionContainer =
+    document.getElementById("questionContainer");
+
+const questionNumber =
+    document.getElementById("questionNumber");
+
+const subjectName =
+    document.getElementById("subjectName");
+
+const progressBar =
+    document.getElementById("progressBar");
+
+const previousBtn =
+    document.getElementById("previousBtn");
+
+const nextBtn =
+    document.getElementById("nextBtn");
+
+const submitBtn =
+    document.getElementById("submitBtn");
+
+const timer =
+    document.getElementById("timer");
+
+
+/* =========================================================
+   START TEST
+========================================================= */
+
+startBtn.addEventListener("click", startTest);
+
+function startTest() {
+
+    startScreen.classList.add("hidden");
+
+    examScreen.classList.remove("hidden");
+
+    resultScreen.classList.add("hidden");
+
+    reviewScreen.classList.add("hidden");
+
+    currentQuestion = 0;
+
+    userAnswers = new Array(questions.length).fill(null);
+
+    timeLeft = 60 * 60;
+
+    displayQuestion();
+
+    startTimer();
+}
+
+
+/* =========================================================
+   DISPLAY QUESTION
+========================================================= */
+
+function displayQuestion() {
+
+    const q = questions[currentQuestion];
+
+    questionNumber.textContent =
+        `Question ${currentQuestion + 1} of ${questions.length}`;
+
+    subjectName.textContent = q.subject;
+
+    const progress =
+        ((currentQuestion + 1) / questions.length) * 100;
+
+    progressBar.style.width = progress + "%";
+
+    let html = `
+        <div class="question-number">
+            Question ${currentQuestion + 1}
+        </div>
+
+        <h2 class="question">
+            ${q.question}
+        </h2>
+
+        <div class="options">
+    `;
+
+    q.options.forEach((option, index) => {
+
+        const checked =
+            userAnswers[currentQuestion] === index
+                ? "checked"
+                : "";
+
+        html += `
+            <label class="option">
+                <input
+                    type="radio"
+                    name="answer"
+                    value="${index}"
+                    ${checked}>
+                ${option}
+            </label>
+        `;
+    });
+
+    html += `</div>`;
+
+    questionContainer.innerHTML = html;
+
+    document
+        .querySelectorAll('input[name="answer"]')
+        .forEach(input => {
+
+            input.addEventListener("change", function () {
+
+                userAnswers[currentQuestion] =
+                    Number(this.value);
+
+            });
+
+        });
+
+    previousBtn.disabled = currentQuestion === 0;
+
+    if (currentQuestion === questions.length - 1) {
+
+        nextBtn.classList.add("hidden");
+
+        submitBtn.classList.remove("hidden");
+
+    } else {
+
+        nextBtn.classList.remove("hidden");
+
+        submitBtn.classList.add("hidden");
+
+    }
+}
+
+
+/* =========================================================
+   NEXT BUTTON
+========================================================= */
+
+nextBtn.addEventListener("click", function () {
+
+    if (currentQuestion < questions.length - 1) {
+
+        currentQuestion++;
+
+        displayQuestion();
+
+        window.scrollTo(0, 0);
+    }
+
+});
+
+
+/* =========================================================
+   PREVIOUS BUTTON
+========================================================= */
+
+previousBtn.addEventListener("click", function () {
+
+    if (currentQuestion > 0) {
+
+        currentQuestion--;
+
+        displayQuestion();
+
+        window.scrollTo(0, 0);
+    }
+
+});
+
+
+/* =========================================================
+   TIMER
+========================================================= */
+
+function startTimer() {
+
+    clearInterval(timerInterval);
+
+    updateTimer();
+
+    timerInterval = setInterval(function () {
+
+        timeLeft--;
+
+        updateTimer();
+
+        if (timeLeft <= 0) {
+
+            clearInterval(timerInterval);
+
+            submitTest();
+
+        }
+
+    }, 1000);
+}
+
+
+function updateTimer() {
+
+    const minutes =
+        Math.floor(timeLeft / 60);
+
+    const seconds =
+        timeLeft % 60;
+
+    timer.textContent =
+        `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+
+/* =========================================================
+   SUBMIT TEST
+========================================================= */
+
+submitBtn.addEventListener("click", submitTest);
+
+function submitTest() {
+
+    clearInterval(timerInterval);
+
+    let correct = 0;
+    let unanswered = 0;
+
+    const subjectStats = {};
+
+    questions.forEach((q, index) => {
+
+        if (!subjectStats[q.subject]) {
+
+            subjectStats[q.subject] = {
+                correct: 0,
+                total: 0
+            };
+
+        }
+
+        subjectStats[q.subject].total++;
+
+        if (userAnswers[index] === null) {
+
+            unanswered++;
+
+        } else if (userAnswers[index] === q.answer) {
+
+            correct++;
+
+            subjectStats[q.subject].correct++;
+        }
+
+    });
+
+    const wrong =
+        questions.length - correct - unanswered;
+
+    const percentage =
+        Math.round((correct / questions.length) * 100);
+
+
+    document.getElementById("finalScore").textContent =
+        `${correct} / ${questions.length}`;
+
+    document.getElementById("percentage").textContent =
+        `${percentage}%`;
+
+    document.getElementById("correctAnswers").textContent =
+        correct;
+
+    document.getElementById("wrongAnswers").textContent =
+        wrong;
+
+    document.getElementById("unanswered").textContent =
+        unanswered;
+
+
+    let message = "";
+
+    if (percentage >= 80) {
+
+        message =
+            "Excellent performance. Continue practising.";
+
+    } else if (percentage >= 60) {
+
+        message =
+            "Good performance. More practice can improve your score.";
+
+    } else if (percentage >= 40) {
+
+        message =
+            "Fair performance. Review the corrections and practise again.";
+
+    } else {
+
+        message =
+            "Keep practising. Review the explanations and try again.";
+
+    }
+
+    document.getElementById("resultMessage").textContent =
+        message;
+
+
+    /* SUBJECT RESULTS */
+
+    const subjectResults =
+        document.getElementById("subjectResults");
+
+    subjectResults.innerHTML = "";
+
+    Object.keys(subjectStats).forEach(subject => {
+
+        const stats = subjectStats[subject];
+
+        const subjectPercentage =
+            Math.round(
+                (stats.correct / stats.total) * 100
+            );
+
+        subjectResults.innerHTML += `
+            <div class="stat">
+                <span>${subject}</span>
+                <strong>
+                    ${stats.correct}/${stats.total}
+                    (${subjectPercentage}%)
+                </strong>
+            </div>
+        `;
+
+    });
+
+
+    examScreen.classList.add("hidden");
+
+    resultScreen.classList.remove("hidden");
+
+    reviewScreen.classList.add("hidden");
+
+    window.scrollTo(0, 0);
+}
+
+
+/* =========================================================
+   VIEW CORRECTIONS
+========================================================= */
+
+document
+    .getElementById("reviewBtn")
+    .addEventListener("click", showCorrections);
+
+
+function showCorrections() {
+
+    resultScreen.classList.add("hidden");
+
+    reviewScreen.classList.remove("hidden");
+
+    const reviewContainer =
+        document.getElementById("reviewContainer");
+
+    reviewContainer.innerHTML = "";
+
+
+    questions.forEach((q, index) => {
+
+        const userAnswer =
+            userAnswers[index];
+
+        let userText =
+            userAnswer === null
+                ? "Not answered"
+                : q.options[userAnswer];
+
+        const correctText =
+            q.options[q.answer];
+
+        const isCorrect =
+            userAnswer === q.answer;
+
+
+        reviewContainer.innerHTML += `
+
+            <div class="card review-card">
+
+                <h3>
+                    Question ${index + 1}
+                </h3>
+
+                <p>
+                    <strong>Subject:</strong>
+                    ${q.subject}
+                </p>
+
+                <p>
+                    <strong>Question:</strong>
+                    ${q.question}
+                </p>
+
+                <p>
+                    <strong>Your answer:</strong>
+                    ${userText}
+                </p>
+
+                <p>
+                    <strong>Correct answer:</strong>
+                    ${correctText}
+                </p>
+
+                <p>
+                    <strong>Explanation:</strong>
+                    ${q.explanation}
+                </p>
+
+                <p>
+                    <strong>Result:</strong>
+                    ${isCorrect ? "Correct" : "Incorrect"}
+                </p>
+
+            </div>
+        `;
+    });
+
+    window.scrollTo(0, 0);
+}
+
+
+/* =========================================================
+   BACK TO RESULTS
+========================================================= */
+
+document
+    .getElementById("backResultBtn")
+    .addEventListener("click", function () {
+
+        reviewScreen.classList.add("hidden");
+
+        resultScreen.classList.remove("hidden");
+
+        window.scrollTo(0, 0);
+
+    });
+
+
+/* =========================================================
+   RETAKE TEST
+========================================================= */
+
+document
+    .getElementById("retakeBtn")
+    .addEventListener("click", restartTest);
+
+
+document
+    .getElementById("retakeBtn2")
+    .addEventListener("click", restartTest);
+
+
+function restartTest() {
+
+    clearInterval(timerInterval);
+
+    currentQuestion = 0;
+
+    userAnswers =
+        new Array(questions.length).fill(null);
+
+    timeLeft = 60 * 60;
+
+    resultScreen.classList.add("hidden");
+
+    reviewScreen.classList.add("hidden");
+
+    startScreen.classList.remove("hidden");
+
+    updateTimer();
+
+    window.scrollTo(0, 0);
+}

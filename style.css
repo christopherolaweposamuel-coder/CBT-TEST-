@@ -1,0 +1,691 @@
+/* =========================
+   GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    color: #14213d;
+    line-height: 1.5;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    width: 100%;
+    background: #102a43;
+    color: white;
+
+    padding: 15px 5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.timer {
+    background: white;
+    color: #102a43;
+
+    padding: 8px 15px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 30px auto;
+
+    padding: 0 15px;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   START SCREEN
+========================= */
+
+.start-screen {
+    text-align: center;
+
+    padding: 45px 25px;
+}
+
+.start-screen h1 {
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #0b8f87;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   TEST INFORMATION
+========================= */
+
+.test-info {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+}
+
+.test-info div {
+    background: #e6f7f4;
+
+    padding: 15px 20px;
+
+    border-radius: 12px;
+
+    min-width: 120px;
+}
+
+.test-info strong {
+    display: block;
+
+    font-size: 25px;
+
+    color: #0b8f87;
+}
+
+.test-info span {
+    font-size: 14px;
+}
+
+
+/* =========================
+   SUBJECTS
+========================= */
+
+.subjects {
+    background: #f5f7fa;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+.subjects h3 {
+    margin-bottom: 10px;
+}
+
+.subjects p {
+    margin: 7px 0;
+}
+
+
+/* =========================
+   INSTRUCTIONS
+========================= */
+
+.instructions {
+    text-align: left;
+
+    background: #f8fafc;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+.instructions h3 {
+    margin-bottom: 10px;
+}
+
+.instructions ul {
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   NOTICE
+========================= */
+
+.notice {
+    background: #fff7df;
+
+    padding: 13px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.primary-btn,
+.secondary-btn,
+.submit-btn {
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+}
+
+.primary-btn {
+    background: #0b8f87;
+
+    color: white;
+}
+
+.primary-btn:hover {
+    background: #08756f;
+}
+
+.secondary-btn {
+    background: #dbe4ee;
+
+    color: #14213d;
+}
+
+.secondary-btn:hover {
+    background: #cbd5e1;
+}
+
+.submit-btn {
+    background: #d64545;
+
+    color: white;
+}
+
+.submit-btn:hover {
+    background: #b83232;
+}
+
+
+/* =========================
+   PROGRESS
+========================= */
+
+.progress-card {
+    background: white;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin-bottom: 15px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.progress-info {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+
+    font-weight: bold;
+}
+
+#subjectName {
+    color: #0b8f87;
+}
+
+.progress-bar {
+    width: 100%;
+
+    height: 9px;
+
+    background: #dfe7ef;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+#progressBar {
+    height: 100%;
+
+    width: 0%;
+
+    background: #0b8f87;
+
+    transition: width 0.3s ease;
+}
+
+
+/* =========================
+   QUESTION CARD
+========================= */
+
+.question-card {
+    background: white;
+
+    padding: 28px;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 6px 22px rgba(0, 0, 0, 0.07);
+}
+
+.question-number {
+    color: #0b8f87;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 8px;
+}
+
+.question-text {
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 22px;
+}
+
+
+/* =========================
+   OPTIONS
+========================= */
+
+.option {
+    display: block;
+
+    border: 1px solid #d8e0e8;
+
+    padding: 14px;
+
+    margin: 10px 0;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.option:hover {
+    background: #f3f8fb;
+
+    border-color: #0b8f87;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.navigation {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 18px;
+}
+
+
+/* =========================
+   RESULT
+========================= */
+
+#resultScreen h1 {
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.score-box {
+    text-align: center;
+
+    margin: 20px 0;
+}
+
+.score {
+    font-size: 55px;
+
+    font-weight: 900;
+
+    color: #0b8f87;
+}
+
+.percentage {
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+.result-message {
+    text-align: center;
+
+    background: #f3f6f9;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   STATISTICS
+========================= */
+
+.statistics {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 12px;
+
+    margin: 20px 0;
+}
+
+.stat {
+    background: #f3f6f9;
+
+    padding: 18px;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.stat span {
+    display: block;
+
+    margin-bottom: 5px;
+}
+
+.stat strong {
+    font-size: 25px;
+}
+
+
+/* =========================
+   SUBJECT RESULTS
+========================= */
+
+#resultScreen h2 {
+    margin-top: 25px;
+
+    margin-bottom: 15px;
+}
+
+.subject-results {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 12px;
+
+    margin-bottom: 25px;
+}
+
+.subject-result {
+    background: #f3f6f9;
+
+    padding: 18px;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.subject-result h3 {
+    font-size: 16px;
+
+    margin-bottom: 8px;
+}
+
+.subject-score {
+    font-size: 24px;
+
+    font-weight: bold;
+
+    color: #0b8f87;
+}
+
+
+/* =========================
+   RESULT BUTTONS
+========================= */
+
+.result-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+}
+
+
+/* =========================
+   REVIEW
+========================= */
+
+#reviewScreen > .card {
+    margin-bottom: 20px;
+}
+
+.review-item {
+    background: white;
+
+    padding: 20px;
+
+    margin: 15px 0;
+
+    border-radius: 10px;
+
+    border-left: 5px solid #aab7c4;
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.06);
+}
+
+.review-item.correct {
+    border-left-color: #179c72;
+}
+
+.review-item.wrong {
+    border-left-color: #d64545;
+}
+
+.review-question {
+    font-size: 17px;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+.your-answer {
+    margin-bottom: 7px;
+}
+
+.correct-answer {
+    margin-bottom: 10px;
+}
+
+.explanation {
+    background: #f5f7fa;
+
+    padding: 12px;
+
+    border-radius: 7px;
+
+    margin-top: 10px;
+}
+
+.explanation strong {
+    color: #0b8f87;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .header {
+        padding: 13px 15px;
+    }
+
+    .logo {
+        font-size: 17px;
+    }
+
+    .timer {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .card {
+        padding: 22px 17px;
+    }
+
+    .start-screen {
+        padding: 30px 17px;
+    }
+
+    .start-screen h1 {
+        font-size: 24px;
+    }
+
+    .question-card {
+        padding: 20px 16px;
+    }
+
+    .question-text {
+        font-size: 18px;
+    }
+
+    .statistics {
+        grid-template-columns: 1fr;
+    }
+
+    .subject-results {
+        grid-template-columns: 1fr;
+    }
+
+    .progress-info {
+        font-size: 14px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+    }
+
+    .navigation button {
+        flex: 1;
+        min-width: 100px;
+    }
+
+    .score {
+        font-size: 45px;
+    }
+
+}

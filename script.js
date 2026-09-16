@@ -805,7 +805,7 @@ const questions = [
             "Banking"
         ],
         answer: 0,
-        explanation
+        explanation:
         "The dove represents peace and the Holy Spirit."
     },
 

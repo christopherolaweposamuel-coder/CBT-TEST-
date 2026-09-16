@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>RUN Post-UTME CBT Practice</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            RUN CBT
+        </div>
+
+        <div class="timer">
+            Time:
+            <span id="timer">60:00</span>
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="container">
+
+
+        <!-- ================= START SCREEN ================= -->
+
+        <section id="startScreen" class="card start-screen">
+
+            <h1>
+                Redeemer's University
+                Post-UTME CBT Practice
+            </h1>
+
+            <p class="subtitle">
+                Practice Test 1
+            </p>
+
+            <div class="test-info">
+
+                <div>
+                    <strong>75</strong>
+                    <span>Questions</span>
+                </div>
+
+                <div>
+                    <strong>60</strong>
+                    <span>Minutes</span>
+                </div>
+
+                <div>
+                    <strong>3</strong>
+                    <span>Subjects</span>
+                </div>
+
+            </div>
+
+
+            <div class="subjects">
+
+                <h3>Subjects</h3>
+
+                <p>English Language — 25 Questions</p>
+
+                <p>Mathematics — 25 Questions</p>
+
+                <p>
+                    General Knowledge / RUN Knowledge
+                    — 25 Questions
+                </p>
+
+            </div>
+
+
+            <div class="instructions">
+
+                <h3>Instructions</h3>
+
+                <ul>
+
+                    <li>
+                        Select one answer for each question.
+                    </li>
+
+                    <li>
+                        You can move between questions
+                        using Previous and Next.
+                    </li>
+
+                    <li>
+                        Your answers are not revealed
+                        until you submit.
+                    </li>
+
+                    <li>
+                        Your score will be calculated
+                        automatically.
+                    </li>
+
+                    <li>
+                        After submission, you will see
+                        corrections and explanations.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <p class="notice">
+
+                This is an original RUN-focused practice
+                examination. It is not an official
+                Redeemer's University examination paper.
+
+            </p>
+
+
+            <button
+                id="startBtn"
+                class="primary-btn">
+
+                START CBT
+
+            </button>
+
+        </section>
+
+
+
+        <!-- ================= EXAM SCREEN ================= -->
+
+        <section
+            id="examScreen"
+            class="hidden">
+
+
+            <!-- PROGRESS -->
+
+            <div class="progress-card">
+
+                <div class="progress-info">
+
+                    <span id="questionNumber">
+                        Question 1 of 75
+                    </span>
+
+                    <span id="subjectName">
+                        English
+                    </span>
+
+                </div>
+
+
+                <div class="progress-bar">
+
+                    <div
+                        id="progressBar">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- QUESTION -->
+
+            <div
+                id="questionContainer"
+                class="question-card">
+
+            </div>
+
+
+
+            <!-- NAVIGATION -->
+
+            <div class="navigation">
+
+                <button
+                    id="previousBtn"
+                    class="secondary-btn">
+
+                    Previous
+
+                </button>
+
+
+                <button
+                    id="nextBtn"
+                    class="primary-btn">
+
+                    Next
+
+                </button>
+
+
+                <button
+                    id="submitBtn"
+                    class="submit-btn hidden">
+
+                    Submit Test
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= RESULT SCREEN ================= -->
+
+        <section
+            id="resultScreen"
+            class="card hidden">
+
+            <h1>
+                Test Completed
+            </h1>
+
+
+            <div class="score-box">
+
+                <div
+                    id="finalScore"
+                    class="score">
+
+                    0 / 75
+
+                </div>
+
+                <div
+                    id="percentage"
+                    class="percentage">
+
+                    0%
+
+                </div>
+
+            </div>
+
+
+
+            <div
+                id="resultMessage"
+                class="result-message">
+
+            </div>
+
+
+
+            <!-- GENERAL STATISTICS -->
+
+            <div class="statistics">
+
+                <div class="stat">
+
+                    <span>Correct</span>
+
+                    <strong
+                        id="correctAnswers">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>Wrong</span>
+
+                    <strong
+                        id="wrongAnswers">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>Unanswered</span>
+
+                    <strong
+                        id="unanswered">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SUBJECT RESULTS -->
+
+            <h2>
+                Subject Performance
+            </h2>
+
+
+            <div
+                id="subjectResults"
+                class="subject-results">
+
+            </div>
+
+
+
+            <div class="result-buttons">
+
+                <button
+                    id="reviewBtn"
+                    class="primary-btn">
+
+                    View Corrections
+
+                </button>
+
+
+                <button
+                    id="retakeBtn"
+                    class="secondary-btn">
+
+                    Retake Test
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CORRECTION SCREEN ================= -->
+
+        <section
+            id="reviewScreen"
+            class="hidden">
+
+
+            <div class="card">
+
+                <h1>
+                    Corrections & Explanations
+                </h1>
+
+                <p>
+                    Review every question below.
+                    Your answer, the correct answer
+                    and an explanation are shown.
+                </p>
+
+            </div>
+
+
+            <div
+                id="reviewContainer">
+
+            </div>
+
+
+            <div class="navigation">
+
+                <button
+                    id="backResultBtn"
+                    class="secondary-btn">
+
+                    Back to Results
+
+                </button>
+
+
+                <button
+                    id="retakeBtn2"
+                    class="primary-btn">
+
+                    Retake Test
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+  </html>
